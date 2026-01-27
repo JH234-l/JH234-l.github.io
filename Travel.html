@@ -11,70 +11,113 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" href="index.html">Index <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="Fun.html">About me</a>
+                <a class="nav-link Active" href="Travel.html">Travel</a>
+            </div>
+        </div>
+    </nav>
+    <h1 text-primary>Travels!</h1>
     <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="Media/Ah.jpeg" class="d-block w-100" alt="Poland">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Poland</h5>
+            <div class="col-md-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Media/Guatemala.jpg" class="d-block w-100" alt="Temple">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Guatemala</h5>
+                                <p>Located in Central America.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/Poland.jpeg" class="d-block w-100" alt="Orange">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Poland</h5>
+                                <p>Located in Europe.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/Flower.jpg" class="d-block w-100" alt="Green">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Greece</h5>
+                                <p>Located in Europe.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        <a href="https://www.istockphoto.com/photo/fuji-japan-in-spring-gm876560704-244648857">
+                            <img src="Media/Pink.jpg" class="d-block w-100" alt="Green">
+                        </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Greece</h5>
+                                <p>Located in Japan (click image to see what happens).</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="Media/Mi.webp" class="d-block w-100" alt="Sun">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Greece</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="Media/Temple.jpg" class="d-block w-100" alt="Arch">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Guatemala</h5>
-                    </div>
-                </div>
-              </div>
-                <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </button>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
                 </div>
             </div>
-          </div>
         </div>
         <div class="row">
-          <div class="col-md-6">
-            <ul class="list-group">
-              <li class="list-group-item">Poland</li>
-              <li class="list-group-item">Greece
-                                          <ol>
-                                            <li>Athens</li>
-                                            <li>Temple of Zues</li>
-                                          </ol>
-              </li>
-              <li class="list-group-item">Guatemala</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <dl class="list-group">
-              <dt class="list-group-item">Poland</dt>
-              <dd class="list-group-item">A cold country with a rich history, based in eastern europe</dd>
-              <dt class="list-group-item">Greece</dt>
-              <dd class="list-group-item">A warm tropical country with a long history, holding the most famous myth</dd>
-              <dt class="list-group-item">Guatemala</dt>
-              <dd class="list-group-item">A hot country with multplie cultures from natives, being around central america</dd>
-            </dl>
-          </div>
+            <div class="col-md-6">
+                <ol class="list-group">
+                    <li class="list-group-item">Guatemala</li>
+                    <li class="list-group-item">Poland
+                        <ol>
+                            <li>Warsaw</li>
+                            <li>Gdansk</li>
+                        </ol>
+                    </li>
+                    <li class="list-group-item">Greece</li>
+                    <li class="list-group-item">Japan</li>
+                </ol>
+            </div>
+            <div class="col-md-6">
+                <figure class="figure text-center">
+                    <img src="Media/Dance.gif" class="img-fluid"
+                        class="figure-img img-fluid rounded"
+                        alt="Quick">
+                    <figcaption class="figure-caption">
+                        A quick video of a praticed dance in Guatemala
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <dl>
+                    <dt>Guatemala</dt>
+                    <dd>A warm tropical Country located in Central America known for its native history</dd>
+                    <dt>Poland</dt>
+                    <dd>A cold country located in Europe, it is known for its history and arise, espically in WW2</dd>
+                    <dt>Greece</dt>
+                    <dd>A warm mostly balanced seasons country, Greece is famous not only for its age and war, but also having argubaly the most famous myth</dd>
+                    <dt>Japan</dt>
+                    <dd>A warm country that has a high modern culture yet clear sights of its past, a modern country that knows its past</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
